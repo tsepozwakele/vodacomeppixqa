@@ -1,0 +1,143 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://www.sonatacentral.com/service/v30/common/scheme" xmlns:ser="http://www.sonatacentral.com/service/v30/Service" xmlns:cal="http://www.sonatacentral.com/service/v30/CallerDetails" xmlns:iden="http://www.sonatacentral.com/service/v30/globaltypes/IdentifierType" xmlns:cli="http://www.sonatacentral.com/service/v30/globaltypes/common/client/ClientGroupType" xmlns:dat="http://www.sonatacentral.com/service/v30/globaltypes/common/data/DataGroupType" xmlns:mod="http://www.sonatacentral.com/service/v30/globaltypes/common/Model" xmlns:sch1="http://www.sonatacentral.com/service/v30/globaltypes/common/scheme/SchemeGroupType" xmlns:prod="http://www.sonatacentral.com/service/v30/globaltypes/wrap/product/ProductGroupType" xmlns:pol="http://www.sonatacentral.com/service/v30/globaltypes/life/policy/PolicyGroupType" xmlns:acc="http://www.sonatacentral.com/service/v30/globaltypes/wrap/account/AccountGroupType">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:createEmployerRequest>
+         <ser:CallerDetails>
+            <cal:username>demo</cal:username>
+            <cal:country>ZA</cal:country>
+            <cal:language>EN</cal:language>
+            <cal:databaseIdentifier>SonataDatasourceDev</cal:databaseIdentifier>
+         </ser:CallerDetails>
+         <sch:clientIdentifier>
+            <sch:existing>
+               <iden:id>sClientID</iden:id>
+            </sch:existing>
+         </sch:clientIdentifier>
+         <sch:employerDetails>
+            <sch1:typeCode>
+               <dat:code>HEAD</dat:code>
+               <dat:codeType>SCLT</dat:codeType>
+            </sch1:typeCode>
+            <sch1:name>sClientHeadoffice</sch1:name>
+            <sch1:shortName>Five Co123</sch1:shortName>
+            <sch1:scheme>
+               <sch1:schemeNumber>DS1</sch1:schemeNumber>
+            </sch1:scheme>
+            <sch1:categoryRules>
+               <sch1:longName>Structure 1 GR</sch1:longName>
+               <sch1:isUsed>true</sch1:isUsed>
+               <sch1:category>
+                  <dat:shortName>Structure 1 GR</dat:shortName>
+               </sch1:category>
+            </sch1:categoryRules>
+            <sch1:productRules>
+               <sch1:product>
+                  <prod:shortName>Umbrella Pens</prod:shortName>
+               </sch1:product>
+               <sch1:category>
+                  <dat:shortName>Structure 1 GR</dat:shortName>
+               </sch1:category>
+               <sch1:insuranceProductRule>
+               <sch1:effectiveDate>2019-02-02T00:00:00.0</sch1:effectiveDate>
+                  <sch1:status>
+                     <dat:code>ACTV</dat:code>
+                     <dat:codeType>EINS</dat:codeType>
+                  </sch1:status>
+                  <sch1:insuranceProductRule>
+                     <sch1:benefitTemplate>
+                        <pol:benefitTemplate>
+                           <iden:id>42000017</iden:id>
+                        </pol:benefitTemplate>
+                     </sch1:benefitTemplate>
+                     <sch1:statusDate>2018-07-01T00:00:00.000</sch1:statusDate>
+                     <sch1:defaultBenefit>true</sch1:defaultBenefit>
+                     <sch1:available>true</sch1:available>
+                     <sch1:employerCatRider>
+                        <sch1:riderTemplate>
+                           <iden:id>42000199</iden:id>
+                        </sch1:riderTemplate>
+                        <sch1:available>true</sch1:available>
+                        <sch1:defaultRider>true</sch1:defaultRider>
+                        <sch1:parameterType>
+                           <sch1:name>ALCBEX&lt;FCL BILL</sch1:name>
+                           <sch1:value>PERC</sch1:value>
+                           <sch1:applyTo>
+                              <dat:code>NEWP</dat:code>
+                              <dat:codeType>RDRP</dat:codeType>
+                           </sch1:applyTo>
+                        </sch1:parameterType>
+                        <sch1:parameterType>
+                           <sch1:name>ALCBEX&lt;FCL BENS</sch1:name>
+                           <sch1:value>PENS</sch1:value>
+                           <sch1:applyTo>
+                              <dat:code>NEWP</dat:code>
+                              <dat:codeType>RDRP</dat:codeType>
+                           </sch1:applyTo>
+                        </sch1:parameterType>
+                        <sch1:parameterType>
+                           <sch1:name>ALCBEX&lt;FCL BENM</sch1:name>
+                           <sch1:value>2.7</sch1:value>
+                           <sch1:applyTo>
+                              <dat:code>NEWP</dat:code>
+                              <dat:codeType>RDRP</dat:codeType>
+                           </sch1:applyTo>
+                        </sch1:parameterType>
+                        <sch1:parameterType>
+                           <sch1:name>ALCBEX&lt;FCL PRSL</sch1:name>
+                           <sch1:value>PENS</sch1:value>
+                           <sch1:applyTo>
+                              <dat:code>NEWP</dat:code>
+                              <dat:codeType>RDRP</dat:codeType>
+                           </sch1:applyTo>
+                        </sch1:parameterType>
+                        <sch1:parameterType>
+                           <sch1:name>ALCBEX&lt;FCL RSKR</sch1:name>
+                           <sch1:value>6</sch1:value>
+                           <sch1:applyTo>
+                              <dat:code>NEWP</dat:code>
+                              <dat:codeType>RDRP</dat:codeType>
+                           </sch1:applyTo>
+                        </sch1:parameterType>
+                        <sch1:parameterType>
+                           <sch1:name>ALCBEX&lt;FCL LSBC</sch1:name>
+                           <sch1:value>MULT</sch1:value>
+                           <sch1:applyTo>
+                              <dat:code>NEWP</dat:code>
+                              <dat:codeType>RDRP</dat:codeType>
+                           </sch1:applyTo>
+                        </sch1:parameterType>
+                        <sch1:parameterType>
+                           <sch1:name>ALCBEX&lt;FCL EXIN</sch1:name>
+                           <sch1:value>HOLL</sch1:value>
+                           <sch1:applyTo>
+                              <dat:code>NEWP</dat:code>
+                              <dat:codeType>RDRP</dat:codeType>
+                           </sch1:applyTo>
+                        </sch1:parameterType>
+                        <sch1:parameterType>
+                           <sch1:name>ALCBEX&lt;FCL SOFI</sch1:name>
+                           <sch1:value>N</sch1:value>
+                           <sch1:applyTo>
+                              <dat:code>NEWP</dat:code>
+                              <dat:codeType>RDRP</dat:codeType>
+                           </sch1:applyTo>
+                        </sch1:parameterType>
+                        <sch1:applyTo>
+                           <dat:code>NEWR</dat:code>
+                           <dat:codeType>RDRA</dat:codeType>
+                        </sch1:applyTo>
+                     </sch1:employerCatRider>
+                  </sch1:insuranceProductRule>
+               </sch1:insuranceProductRule>
+            </sch1:productRules>
+            <sch1:expenseGroups>
+               <sch1:effectiveDate>2019-01-01T00:00:00</sch1:effectiveDate>
+               <sch1:applicationRule>ACCR</sch1:applicationRule>
+               <sch1:expenseGroup>
+                  <iden:name>Umbrella</iden:name>
+               </sch1:expenseGroup>
+            </sch1:expenseGroups>
+         </sch:employerDetails>
+      </sch:createEmployerRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

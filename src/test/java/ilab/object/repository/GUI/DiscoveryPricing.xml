@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiscoveryPricing>
+
+	<login>
+		<usernameFld>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='debs-input-0']</Element>
+		</usernameFld>
+		<passwordFld>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='debs-input-1']</Element>
+		</passwordFld>
+		<checkBxt>
+			<identifier>xpath</identifier>
+			<Element>//*[@class='material-icons']</Element>
+		</checkBxt>
+		<loginBtn>
+			<identifier>xpath</identifier>
+			<Element>//*[text()=' Login ']</Element>
+		</loginBtn>
+		
+		<requestNewQuoteBtn>
+			<identifier>xpath</identifier>
+			<Element>//*[text()=' Request a new quote ']</Element>
+		</requestNewQuoteBtn>
+	</login>
+	
+	<regueastRuote>
+		
+		<requestNewQuote>
+			<identifier>xpath</identifier>
+			<Element>//span[text()=' Request a new quote ']</Element>
+		</requestNewQuote>
+		
+		<companyName>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='debs-input-2']</Element>
+		</companyName>
+		
+		<companyRegNum>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='debs-input-3']</Element>
+		</companyRegNum>
+		
+		<industry>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='debs-select2-0']</Element>
+		</industry>
+		
+		<natureOfBusiness>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='debs-input-4']</Element>
+		</natureOfBusiness>
+		
+		<policyCommenceDate>
+			<identifier>xpath</identifier>
+			<Element>//input[@name='date-picker']</Element>
+		</policyCommenceDate>
+		
+		<newScheme>
+			<identifier>CSSSELECTOR</identifier>
+			<Element>debs-check-box:nth-child(3) div div label span.checkmark i</Element>
+		</newScheme>
+		
+		<parentEntity>
+			<identifier>CSSSELECTOR</identifier>
+			<Element>debs-check-box:nth-child(4) div div label span.checkmark i</Element>
+		</parentEntity>
+		
+		<memDicoveryHealth>
+			<identifier>CSSSELECTOR</identifier>
+			<Element>debs-check-box:nth-child(5) div div label span.checkmark i</Element>
+		</memDicoveryHealth>
+		
+		<discoveryVitality>
+			<identifier>CSSSELECTOR</identifier>
+			<Element>debs-check-box:nth-child(6) div div label span.checkmark i</Element>
+		</discoveryVitality>
+		
+		<quoteIsIndicative>
+			<identifier>CSSSELECTOR</identifier>
+			<Element>debs-check-box:nth-child(7) div div label span.checkmark i</Element>
+		</quoteIsIndicative>
+		
+		<workerType>
+			<identifier>CSSSELECTOR</identifier>
+			<Element>div:nth-child(2) > label span.checkmark i</Element>
+		</workerType>
+		
+		<pilot>
+			<identifier>CSSSELECTOR</identifier>
+			<Element>div:nth-child(2) > label span.checkmark i</Element>
+		</pilot>
+		
+		<foriegnNationals>
+			<identifier>CSSSELECTOR</identifier>
+			<Element>div:nth-child(2) > label span.checkmark i</Element>
+		</foriegnNationals>
+		
+		<region>
+			<identifier>CSSSELECTOR</identifier>
+			<Element>tr:nth-child(3)  td div div span:nth-child(2) > input</Element>
+		</region>
+		
+		<brokerHouse>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='debs-select2-1']</Element>
+		</brokerHouse>
+		
+		<brokerHouseItem>
+			<identifier>xpath</identifier>
+			<Element>//*[@id="ngb-typeahead-1-0"]</Element>
+		</brokerHouseItem>
+		
+		<brokerName>
+			<identifier>xpath</identifier>
+			<Element>//select[@id='debs-select-0']</Element>
+		</brokerName>
+		
+		<franchise>
+			<identifier>xpath</identifier>
+			<Element>//select[@id='debs-select-1']</Element>
+		</franchise>
+		
+		<brokerConsultantName>
+			<identifier>xpath</identifier>
+			<Element>//select[@id='debs-select-2']</Element>
+		</brokerConsultantName>
+		
+		<nextButton>
+			<identifier>xpath</identifier>
+			<Element>//span[text()=' Next ']</Element>
+		</nextButton>
+		
+		<selectFileButton>
+			<identifier>xpath</identifier>
+			<Element>//*[text()='Select a file to import ']</Element>
+		</selectFileButton>
+
+	</regueastRuote>
+	
+</DiscoveryPricing>

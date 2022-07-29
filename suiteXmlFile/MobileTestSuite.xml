@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="methods" preserve-order ="false"  thread-count="2" >
+    <!-- Mobile -->
+    
+    <test name="CheckersApp Smoke Test">
+		<parameter name="strAppiumVersion" value="1.13.0"/>
+		<parameter name="strAutomationName" value="Appium"/>
+		<parameter name="strPlatformName" value="Android"/>
+		<parameter name="strPlatformVersion" value="9"/>
+		<parameter name="strDeviceName" value="HUAWEI"/>
+		<parameter name="strudid" value="AUE4C19118002190"/>
+		<parameter name="strPackage" value="za.co.shoprite.eezicoupon"/>
+		<parameter name="strActivity" value="za.co.shoprite.eezicoupon.MainActivity"/>
+		<parameter name="strURL" value="http://localhost:4723/wd/hub"/>
+		<classes>
+			<class name="ilab.mobile.tests.CheckersAppSmokeTest"/>
+		</classes>
+	</test>
+	
+</suite>

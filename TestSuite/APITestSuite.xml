@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery Test Suite" parallel="tests" preserve-order="false" thread-count="1" verbose="5">
+
+	<test name="Discovery_API">
+		<classes>
+			<class name="ilab.api.tests.APIController"/>
+		</classes>
+	</test>
+</suite> 

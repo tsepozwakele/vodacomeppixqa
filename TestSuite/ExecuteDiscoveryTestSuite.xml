@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery Test Suite" parallel="tests" preserve-order="false" thread-count="2" verbose="5">
+    <!--
+    <test  name="Pricing Quote">
+        <classes>
+            <class name="ilab.gui.tests.pricing.Test_EOP_PricingQuote"/>
+        </classes>
+    </test>
+
+    <test  name="Member Zone Goals Dashboard Navigation">
+        <classes>
+            <class name="ilab.gui.tests.memberzone.Test_MZ_Navigation"/>
+        </classes>
+    </test>
+
+     <test  name="Member Zone Goals Dashboard Navigation">
+        <classes>
+            <class name="ilab.gui.tests.investment.Test_MZ_Investmets"/>
+        </classes>
+    </test>
+    -->
+
+    <test name="Member Zone Goals Dashboard Navigation">
+        <classes>
+            <class name="ilab.gui.tests.memberzone.Test_MZ_AboutYou"/>
+        </classes>
+    </test>
+
+    <test  name="Member Zone Goals Dashboard Login">
+        <classes>
+            <class name="ilab.gui.tests.memberzone.Test_MZ_Login"/>
+        </classes>
+    </test>
+
+</suite>

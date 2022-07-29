@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IOS>
+	
+	<buttons>
+	<identifier>xpath</identifier>
+	<Element>//XCUIElementTypeStaticText[@name="Buttons"]</Element>
+	</buttons>
+	<confirmbuttons>
+	<identifier>name</identifier>
+	<Element>Button</Element>
+	</confirmbuttons>
+	
+
+</IOS>

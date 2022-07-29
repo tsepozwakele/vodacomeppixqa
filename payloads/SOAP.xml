@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hp="HP.SOAQ.SampleApp">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hp:GetFlights>
+         <!--Optional:-->
+         <hp:DepartureCity>RefNumber</hp:DepartureCity>
+         <!--Optional:-->
+         <hp:ArrivalCity>sArrivalCity</hp:ArrivalCity>
+         <!--Optional:-->
+         <hp:FlightDate>sFlightDate</hp:FlightDate>
+      </hp:GetFlights>
+   </soapenv:Body>
+</soapenv:Envelope>

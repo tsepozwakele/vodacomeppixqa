@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<FlightOrderDetails xmlns="HP.SOAQ.SampleApp">
+<Class>rClass</Class>
+<CustomerName>rCustomerName</CustomerName>
+<DepartureDate>rDepartureDate</DepartureDate>
+<FlightNumber>rFlightNumber</FlightNumber>
+<NumberOfTickets>rNumberOfTickets</NumberOfTickets>
+</FlightOrderDetails>

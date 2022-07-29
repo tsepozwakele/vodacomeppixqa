@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery Sand Box Test Suite" parallel="tests" preserve-order="false" thread-count="1" verbose="5">
+    <!--
+    <test  name="Sand Box Test Suite">
+        <classes>
+            <class name="ilab.gui.tests.investment.Test_MZ_Investmets"/>
+        </classes>
+    </test>
+
+    -->
+
+    <test  name="Member Zone Goals Dashboard Beneficiaries">
+        <classes>
+            <class name="ilab.gui.tests.memberzone.Test_MZ_Beneficiaries"/>
+        </classes>
+    </test>
+
+
+</suite>

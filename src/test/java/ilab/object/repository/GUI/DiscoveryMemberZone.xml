@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiscoveryMemberZone>
+
+    <login>
+
+        <loginBtnHome>
+            <identifier>xpath</identifier>
+            <Element>//span[text()='Log in']</Element>
+        </loginBtnHome>
+
+        <usernameFld>
+            <identifier>xpath</identifier>
+            <Element>//input[@id='Username']</Element>
+        </usernameFld>
+
+        <passwordFld>
+            <identifier>xpath</identifier>
+            <Element>//input[@id='Password']</Element>
+        </passwordFld>
+
+        <loginBtn>
+            <identifier>xpath</identifier>
+            <Element>//button[@id='btnLogin']</Element>
+        </loginBtn>
+
+        <logoutBtn>
+            <identifier>xpath</identifier>
+            <Element>//a[text()='Log out']</Element>
+        </logoutBtn>
+
+		<canceltBtn>
+			<identifier>xpath</identifier>
+			<Element>//button[@id='btnCancel']</Element>
+		</canceltBtn>
+
+        <loginError>
+            <identifier>xpath</identifier>
+            <Element>//div[text()='Login failed. Please enter a valid username and password - note that both the username and password are case sensitive.']</Element>
+        </loginError>
+
+		<spinner>
+			<identifier>xpath</identifier>
+			<Element>//div[@class='centered']/following-sibling::div[@class='centered']/child::mat-spinner</Element>
+		</spinner>
+
+    </login>
+
+    
+    <navigation>
+
+    	<investmentAndRetirementSavingsLink>
+    		<identifier>xpath</identifier>
+            <Element>//*[@id="portfolio_content_investments"]/div/div/div[1]/div/h5/a</Element>
+    	</investmentAndRetirementSavingsLink>
+    	
+    	<investmentTab>
+    		<identifier>xpath</identifier>
+    		<Element>(//*[@id="topnav-investments"])[1]</Element>
+    	</investmentTab>
+    	
+    	<memberZoneLink>
+    		<identifier>xpath</identifier>
+    		<Element>//a[@class='site-logo']//following::a[contains(text(),'Member zone')][1]</Element>
+    	</memberZoneLink>
+    	
+    	<letsGetStartedFrm>
+    		<identifier>xpath</identifier>
+    		<Element>//iframe[@id='appIFrameObj']</Element>
+    	</letsGetStartedFrm>
+    	
+    	<letsGetStartedBtn>
+    		<identifier>xpath</identifier>
+    		<Element>//button[@class='btn btn-primary']</Element>
+    	</letsGetStartedBtn>
+    	
+    	<preferredName>
+    		<identifier>xpath</identifier>
+    		<Element>//*[@id="preferredName"]</Element>	
+    	</preferredName>
+    	
+    	<achieveGoal>
+    		<identifier>xpath</identifier>
+    		<Element>//*[@id="memberOnboardingStepsPanel"]/div/div/member-onboarding-steps/ul/li[2]/span[2]/a</Element>
+    	</achieveGoal>
+
+		<achieveGoalFrm>
+			<identifier>xpath</identifier>
+			<Element>//iframe[@id='appIFrameObj']</Element>
+		</achieveGoalFrm>
+    	
+    	<saveAndNextAchieveGoalFrm>
+    		<identifier>xpath</identifier>
+    		<Element>//iframe[@id='appIFrameObj']</Element>
+    	</saveAndNextAchieveGoalFrm>
+    	   	
+    	<saveAndNextAchieveGoal>
+    		<identifier>xpath</identifier>
+    		<Element>//button[contains(text(),'Save and next: achieve your goal')]</Element>
+    	</saveAndNextAchieveGoal>
+
+
+
+    	
+    	<chooseThisFundBtn>
+    		<identifier>xpath</identifier>
+    		<Element>//div[@class='centered']/following-sibling::div[4]/child::div//button[1]</Element>
+    	</chooseThisFundBtn>
+
+		<backToInvestmentBtn>
+			<identifier>xpath</identifier>
+			<Element>//button[contains(text(),'Back to investments')]</Element>
+		</backToInvestmentBtn>
+
+		<backToInvestmentLink>
+			<identifier>xpath</identifier>
+			<Element>//span[contains(text(),'Back to investments')]</Element>
+		</backToInvestmentLink>
+
+    	
+    </navigation>
+
+	<AboutYou>
+
+		<aboutYouTab>
+			<identifier>xpath</identifier>
+			<Element>//div[@id='mat-tab-label-0-1']</Element>
+		</aboutYouTab>
+
+		<aboutYouInputField>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='stopWorkingFromAgeOnKey']</Element>
+		</aboutYouInputField>
+
+		<aboutYouFrm>
+			<identifier>xpath</identifier>
+			<Element>//iframe[@id='appIFrameObj']</Element>
+		</aboutYouFrm>
+
+		<viewAndSubmitBtn>
+			<identifier>xpath</identifier>
+			<Element>//button[contains(text(),'View and submit changes')]</Element>
+		</viewAndSubmitBtn>
+
+	</AboutYou>
+
+	<!--NominateAsPersonFields-->
+	<NominateAsPersonFields>
+
+		<FundDeathBenefitsFrm>
+			<identifier>xpath</identifier>
+			<Element>//iframe[@id='appIFrameObj']</Element>
+		</FundDeathBenefitsFrm>
+
+		<beneficiariesTab>
+			<identifier>xpath</identifier>
+			<Element>//a[contains(text(), 'Beneficiaries and dependants')]</Element>
+		</beneficiariesTab>
+
+		<BeneficiariesFrm>
+			<identifier>xpath</identifier>
+			<Element>//iframe[@id='appIFrameObj']</Element>
+		</BeneficiariesFrm>
+
+		<AddDependantBtn>
+			<identifier>xpath</identifier>
+			<Element>//button[@class='btn btn-secondary col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6']</Element>
+		</AddDependantBtn>
+
+		<NominateAsNaturalPerson>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='isNaturalPerson']</Element>
+		</NominateAsNaturalPerson>
+
+
+		<IdentifiedAsDependant>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='isDependant']</Element>
+		</IdentifiedAsDependant>
+
+		<NominatedAsBeneficiary>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='isBeneficiary']</Element>
+		</NominatedAsBeneficiary>
+
+		<SelectRelationshipAsPerson>
+			<identifier>xpath</identifier>
+			<Element>//select[@class='custom-select ng-untouched ng-pristine ng-invalid']</Element>
+		</SelectRelationshipAsPerson>
+
+		<Name>
+			<identifier>xpath</identifier>
+			<Element>(//input[@class='form-control ng-untouched ng-pristine ng-invalid'])[1]</Element>
+		</Name>
+
+		<Surname>
+			<identifier>xpath</identifier>
+			<Element>//*[@id="mat-tab-content-0-0"]/div/div/div/add-nominated-beneficiary/div/div[2]/form/div/div[5]/cust-input/div/input</Element>
+		</Surname>
+
+		<DOB>
+			<identifier>xpath</identifier>
+			<Element>//*[@id="mat-tab-content-0-0"]/div/div/div/add-nominated-beneficiary/div/div[2]/form/div/div[6]/div[2]/input</Element>
+		</DOB>
+
+
+		<IDRadioBtn>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='IDNumber']</Element>
+		</IDRadioBtn>
+
+		<PassportRadioBtn>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='Passport']</Element>
+		</PassportRadioBtn>
+
+		<IDNumberTextField>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control m-t-0 ng-untouched ng-pristine ng-invalid']</Element>
+		</IDNumberTextField>
+
+		<PassportTextField>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control m-b-0 ng-untouched ng-pristine ng-invalid']</Element>
+		</PassportTextField>
+
+		<Gender>
+			<identifier>xpath</identifier>
+			<Element>//*[@id="mat-tab-content-0-0"]/div/div/div/add-nominated-beneficiary/div/div[2]/form/div/div[8]/cust-select/div/select</Element>
+		</Gender>
+
+		<ContactNo>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control ng-untouched ng-pristine ng-invalid ng-star-inserted']</Element>
+		</ContactNo>
+
+		<Email>
+			<identifier>xpath</identifier>
+			<Element>//input[@formcontrolname='emailAddress']</Element>
+		</Email>
+
+		<AddressLine1>
+			<identifier>xpath</identifier>
+			<Element>//*[@id="mat-tab-content-0-0"]/div/div/div/add-nominated-beneficiary/div/div[2]/form/div/div[11]/div[2]/div/address/form/div[1]/cust-input/div/input</Element>
+		</AddressLine1>
+
+		<AddressLine2>
+			<identifier>xpath</identifier>
+			<Element>//*[@id="mat-tab-content-0-0"]/div/div/div/add-nominated-beneficiary/div/div[2]/form/div/div[11]/div[2]/div/address/form/div[2]/cust-input/div/input</Element>
+		</AddressLine2>
+
+		<Suburb>
+			<identifier>xpath</identifier>
+			<Element>//*[@id="mat-tab-content-0-0"]/div/div/div/add-nominated-beneficiary/div/div[2]/form/div/div[11]/div[2]/div/address/form/div[3]/cust-input/div/input</Element>
+		</Suburb>
+
+		<Code>
+			<identifier>xpath</identifier>
+			<Element>//*[@id="mat-tab-content-0-0"]/div/div/div/add-nominated-beneficiary/div/div[2]/form/div/div[11]/div[2]/div/address/form/div[4]/input</Element>
+		</Code>
+
+		<City>
+			<identifier>xpath</identifier>
+			<Element>//*[@id="city"]/div/input</Element>
+		</City>
+
+		<BenefitPercentage>
+			<identifier>xpath</identifier>
+			<Element>(//input[@aria-label='Benefit percentage share'])[2]</Element>
+		</BenefitPercentage>
+
+		<DisclaimerRadioBtn>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='acceptedDisclaimer']</Element>
+		</DisclaimerRadioBtn>
+
+		<AddDependant>
+			<identifier>xpath</identifier>
+			<Element>//button[@class='btn btn-primary col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ng-star-inserted']</Element>
+		</AddDependant>
+
+		<SaveAndNext>
+			<identifier>xpath</identifier>
+			<Element>//button[@class='btn btn-action col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 pull-right']</Element>
+		</SaveAndNext>
+	</NominateAsPersonFields>
+
+
+	<!--NominateAsInstitutionFields-->
+	<NominateAsInstitutionFields>
+
+		<NominateAsInstitution>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='isInstitution']</Element>
+		</NominateAsInstitution>
+
+		<SelectRelationshipAsInstitution>
+			<identifier>xpath</identifier>
+			<Element>//select[@class='custom-select ng-untouched ng-pristine ng-invalid']</Element>
+		</SelectRelationshipAsInstitution>
+
+		<NameOfInstitution>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control ng-pristine ng-invalid invalid ng-touched']</Element>
+		</NameOfInstitution>
+
+		<RegNumber>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='col-sm-12 form-control ng-pristine ng-invalid ng-touched']</Element>
+		</RegNumber>
+
+		<ReferenceNumber>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control ng-valid ng-dirty ng-touched']</Element>
+		</ReferenceNumber>
+
+		<ContactInstitution>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control ng-untouched ng-pristine ng-invalid ng-star-inserted']</Element>
+		</ContactInstitution>
+
+		<EmailInstitution>
+			<identifier>xpath</identifier>
+			<Element>(//input[@class='form-control ng-untouched ng-pristine ng-invalid'])[1]</Element>
+		</EmailInstitution>
+
+		<AddressLine1Institution>
+			<identifier>xpath</identifier>
+			<Element>(//input[@class='form-control ng-pristine ng-invalid invalid ng-touched'])[2]</Element>
+		</AddressLine1Institution>
+
+		<AddressLine2Institution>
+			<identifier>xpath</identifier>
+			<Element>(//input[@class='form-control ng-untouched ng-pristine ng-valid'])[3]</Element>
+		</AddressLine2Institution>
+
+		<SuburbInstitution>
+			<identifier>xpath</identifier>
+			<Element>(//input[@class='form-control ng-untouched ng-pristine ng-valid'])[4]</Element>
+		</SuburbInstitution>
+
+		<CodeInstitution>
+			<identifier>xpath</identifier>
+			<Element>(//input[@class='form-control col-sm-4 ng-untouched ng-pristine ng-valid'])[1]</Element>
+		</CodeInstitution>
+
+		<CityInstitution>
+			<identifier>xpath</identifier>
+			<Element>(//input[@class='form-control ng-untouched ng-pristine ng-invalid'])[2]</Element>
+		</CityInstitution>
+
+		<PostalEqualPhysicalBtn>
+			<identifier>xpath</identifier>
+			<Element>//label[contains(text(),'Postal Address is the same as Physical Address?')]</Element>
+		</PostalEqualPhysicalBtn>
+
+	</NominateAsInstitutionFields>
+
+	<Contacts>
+
+		<ContactTab>
+			<identifier>xpath</identifier>
+			<Element>//p[contains(text(), 'Contacts')]</Element>
+		</ContactTab>
+
+		<AddContacts>
+			<identifier>xpath</identifier>
+			<Element>//button[contains(text(), '+ Add contacts')]</Element>
+		</AddContacts>
+
+		<Relationship>
+			<identifier>xpath</identifier>
+			<Element>(//select[@class='custom-select ng-untouched ng-pristine ng-invalid'])[1]</Element>
+		</Relationship>
+
+		<Name2>
+			<identifier>xpath</identifier>
+			<Element>(//input[@class='form-control ng-untouched ng-pristine ng-invalid'])[1]</Element>
+		</Name2>
+
+		<Surname2>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control ng-pristine ng-invalid invalid ng-touched']</Element>
+		</Surname2>
+
+		<DateOfBirth2>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control ng-invalid ng-dirty ng-touched']</Element>
+		</DateOfBirth2>
+
+		<IDRadioBtn2>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='IDNumber']</Element>
+		</IDRadioBtn2>
+
+		<PassportRadioBtn2>
+			<identifier>xpath</identifier>
+			<Element>//input[@id='Passport']</Element>
+		</PassportRadioBtn2>
+
+		<IDTextField2>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control m-t-0 ng-pristine ng-invalid ng-touched']</Element>
+		</IDTextField2>
+
+		<PassportTextField2>
+			<identifier>xpath</identifier>
+			<Element>//input[@class='form-control m-b-0 ng-pristine ng-invalid ng-touched']</Element>
+		</PassportTextField2>
+
+		<Gender2>
+			<identifier>xpath</identifier>
+			<Element>//select[@class='custom-select ng-pristine ng-invalid ng-touched']</Element>
+		</Gender2>
+
+		<Contact2>
+			<identifier>xpath</identifier>
+			<Element>//input[@formcontrolname='contactNumber']</Element>
+		</Contact2>
+
+		<Email2>
+			<identifier>xpath</identifier>
+			<Element>//input[@formcontrolname='emailAddress']</Element>
+		</Email2>
+
+		<AddContact>
+			<identifier>xpath</identifier>
+			<Element>//button[@class='btn btn-primary col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-sm-3 ng-star-inserted']</Element>
+		</AddContact>
+
+		<SaveAndNextInvestSum>
+			<identifier>xpath</identifier>
+			<Element>//button[@class='btn btn-action col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 pull-right']</Element>
+		</SaveAndNextInvestSum>
+
+	</Contacts>
+
+</DiscoveryMemberZone>

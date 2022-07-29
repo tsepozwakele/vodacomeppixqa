@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiscoveryInvestment>
+
+    <investment>
+        <investmentTab>
+            <identifier>xpath</identifier>
+            <Element>(//*[@id="topnav-investments"])[1]</Element>
+        </investmentTab>
+
+        <memberZoneLink>
+            <identifier>xpath</identifier>
+            <Element>(//*[@id="topnav-sl-investments-employee-benefits"])[4]</Element>
+        </memberZoneLink>
+
+        <chooseThisFundBtn>
+            <identifier>xpath</identifier>
+            <Element>//div[@class='centered']/following-sibling::div[4]/child::div//button[1]</Element>
+        </chooseThisFundBtn>
+
+        <moreInvestOptdBtn>
+            <identifier>xpath</identifier>
+            <Element>//div[@class='centered']/following-sibling::div[4]/child::div//button[2]</Element>
+        </moreInvestOptdBtn>
+
+        <letsGetStartedFrm>
+            <identifier>xpath</identifier>
+            <Element>//iframe[@id='appIFrameObj']</Element>
+        </letsGetStartedFrm>
+
+        <letsGetStartedBtn>
+            <identifier>xpath</identifier>
+            <Element>//button[@class='btn btn-primary']</Element>
+        </letsGetStartedBtn>
+
+        <memberZonePg>
+            <identifier>xpath</identifier>
+            <Element>//span[text()='Member zone']</Element>
+        </memberZonePg>
+
+        <investOptPg>
+            <identifier>xpath</identifier>
+            <Element> //span[text()='Investment options']</Element>
+        </investOptPg>
+
+        <spinner>
+            <identifier>xpath</identifier>
+            <Element>//div[@class='centered']/following-sibling::div[@class='centered']/child::mat-spinner</Element>
+        </spinner>
+
+        <chooseFundBtn>
+            <identifier>xpath</identifier>
+            <Element>//dashboard-panel[@id='moreInvestmentChoiceComponent']/descendant::div[16]</Element>
+        </chooseFundBtn>
+
+        <confirmBtn>
+            <identifier>xpath</identifier>
+            <Element>//dashboard-panel[@id='moreInvestmentChoiceComponent']/descendant::div[51]/following-sibling::div</Element>
+        </confirmBtn>
+
+        <confirmDVBtn>
+            <identifier>xpath</identifier>
+            <Element>//dashboard-panel[@id='moreInvestmentChoiceComponent']/descendant::div[90]/following-sibling::div</Element>
+        </confirmDVBtn>
+
+        <advInvestOptBtn>
+            <identifier>xpath</identifier>
+            <Element>//dashboard-panel[@id='moreInvestmentChoiceComponent']/descendant::div[51]/following-sibling::div</Element>
+        </advInvestOptBtn>
+
+        <moderateFundBtn>
+            <identifier>xpath</identifier>
+            <Element>//dashboard-panel[@id='moreInvestmentChoiceComponent']/descendant::div[16]</Element>
+        </moderateFundBtn>
+
+        <moderateFundDVBtn>
+            <identifier>xpath</identifier>
+            <Element>//dashboard-panel[@id='moreInvestmentChoiceComponent']/descendant::div[27]</Element>
+        </moderateFundDVBtn>
+
+        <cautionFundBtn>
+            <identifier>xpath</identifier>
+            <Element>//dashboard-panel[@id='moreInvestmentChoiceComponent']/descendant::div[20]</Element>
+        </cautionFundBtn>
+
+        <targetRetireFundBtn>
+            <identifier>xpath</identifier>
+            <Element>//dashboard-panel[@id='moreInvestmentChoiceComponent']/descendant::div[25]</Element>
+        </targetRetireFundBtn>
+
+        <detailedViewBtn>
+            <identifier>xpath</identifier>
+            <Element>//dashboard-panel[@id='moreInvestmentChoiceComponent']/descendant::div[1]/descendant::div[3]/descendant::div[3]/descendant::button[2]</Element>
+        </detailedViewBtn>
+
+        <investFudPg>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(text(),'Your investment fund choice')]</Element>
+        </investFudPg>
+
+        <factSheetLnk>
+            <identifier>xpath</identifier>
+            <Element>//div[contains(text(),'Discovery Life Target Retirement Date Fund')]/following::a[contains(text(),'Fund fact sheet')]</Element>
+        </factSheetLnk>
+
+        <pdfPg>
+            <identifier>xpath</identifier>
+            <Element>//embed[@type='application/pdf']</Element>
+        </pdfPg>
+
+    </investment>
+
+</DiscoveryInvestment>
